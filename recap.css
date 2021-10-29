@@ -1,0 +1,22 @@
+.main { 
+    border: 1px solid white;
+}
+.nice{
+    border-radius: 50%;
+    height: 5rem;
+    width:5rem;
+    display: flex;
+}
+@media  screen and(max-width:800px) {
+    .img{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+}
+
+
+.contain{
+    width:40rem;
+    height: 10rem;
+}
